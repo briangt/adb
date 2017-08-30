@@ -5,12 +5,12 @@ In order to solve some of the mobile phone input parameter exception, the use of
 
 send keywords
 -----------------------
-adbkeyevent("qwea@sd123")
+adb_keyevent("qwea@sd123")
 
 tap
 -----------------------
-adbtap(376,1718)
+adb_tap(376,1718)
 
 swipe
 -----------------------
-adbswipe(666,1460,666,500)
+adb_swipe(666,1460,666,500)
