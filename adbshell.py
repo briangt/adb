@@ -7,7 +7,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-def adbkeyevent(keyword):
+def adb_keyevent(keyword):
     dict1 = {0: 7,
              1: 8,
              2: 9,
@@ -60,11 +60,11 @@ def adbkeyevent(keyword):
                 os.popen("adb shell input text " + str(a))
 
 
-def adbtap(x, y):
+def adb_tap(x, y):
     os.popen("adb shell input tap " + str(x) + " " + str(y))
 
 
-def adbswipe(x1, y1, x2, y2):
+def adb_swipe(x1, y1, x2, y2):
     os.popen("adb shell input swipe " + str(x1) + " " + str(y1) + " " + str(x2) + " " + str(y2))
 
 # adbtap(376,1718)
