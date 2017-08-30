@@ -5,7 +5,7 @@ In order to solve some of the mobile phone input parameter exception, the use of
 
 send keywords
 -----------------------
-adbkeyenent("qwea@sd123")
+adbkeyevent("qwea@sd123")
 
 tap
 -----------------------
