@@ -7,7 +7,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-def adbeyenent(keyword):
+def adbkeyevent(keyword):
     dict1 = {0: 7,
              1: 8,
              2: 9,
